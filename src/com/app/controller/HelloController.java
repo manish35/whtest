@@ -25,4 +25,7 @@ public class HelloController {
 		mv.setViewName("Welcome");
 		return mv;
 	}
+	public String hello(){
+		System.out.println("Home Controller");
+	}
 }
