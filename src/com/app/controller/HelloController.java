@@ -24,6 +24,7 @@ public class HelloController {
 		mv.addObject("keys", "Hello JSP.!!!");
 		mv.setViewName("Welcome");
 		mv.setViewName("");
+		mv.setViewName("");
 		return mv;
 	}
 	
