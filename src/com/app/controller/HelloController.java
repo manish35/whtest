@@ -10,7 +10,7 @@ public class HelloController {
 	
 	
 	@RequestMapping("/show")
-	public ModelAndView showPage(){
+	public ModelAndView showPage() {
 		//System.out.println("calling show..");
 		ModelAndView mv=new ModelAndView("hello");
 		return mv;
