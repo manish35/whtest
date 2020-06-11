@@ -23,6 +23,7 @@ public class HelloController {
 		ModelAndView mv = new ModelAndView();
 		mv.addObject("keys", "Hello JSP.!!!");
 		mv.setViewName("Welcome");
+		mv.setViewName("");
 		return mv;
 	}
 	
